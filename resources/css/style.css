@@ -26,15 +26,86 @@ html {
     margin: 0 auto 0 auto;
 }
 
-h1 { 
-    margin-top: 0;
-    margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 240%;
-    letter-spacing: 1px;
+section{ 
+    padding: 80px;
+}
+
+.box {
+    padding: 1%;
+}
+
+/* ------------------------------------------------------- */
+    /*HEADINGS*/
+/* ------------------------------------------------------- */
+
+h1,
+h2,
+h3 { 
     text-transform: uppercase;
     font-weight: 300;
 }
+
+h1{
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 240%;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+}
+
+h2{ 
+ font-size: 180%;
+ word-spacing: 1px;
+ text-align: center;
+ margin-bottom: 30px;
+ letter-spacing: 1px;
+
+}
+
+h2:after { 
+    display: block;
+    height: 2px;
+    width: 100px;
+    margin-top: 30px;
+    margin: 20px auto;
+    content: " ";
+    background-color: rgb(89, 205, 255);
+}
+
+h3{
+    font-size:110%;
+    margin-bottom:10%;
+}
+
+/*---------PARAGRAPH ----*/
+
+.long-copy {
+    width: 70%;
+    line-height: 145%;
+    margin-left: 15%;
+}
+
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/*---------ICONS ----*/
+
+.icon-big {
+    font-size: 300%;
+    display: block;
+    color:rgb(89, 205, 255);
+    margin-bottom: 10px;
+    margin-left: 25%;
+
+}
+
+
+
+
+
 
 /*---------BUTTONS ----*/
 
