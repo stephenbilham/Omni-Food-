@@ -70,16 +70,17 @@ h2:after {
 }
 
 h3 {
-  font-size: 110%;
+  font-size: 103%;
   margin-bottom: 10%;
 }
 
 /*---------PARAGRAPH ----*/
 
 .long-copy {
-  width: 70%;
+  width: 80%;
   line-height: 145%;
-  margin-left: 15%;
+  margin-left: 10%;
+  text-align: center;
 }
 
 .box p {
@@ -180,4 +181,49 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* ------------------------------------------------------- */
+/*FEATURES*/
+/* ------------------------------------------------------- */
+.section-features .long-copy {
+  margin-bottom: 30px;
+}
+/* ------------------------------------------------------- */
+/*MEALS*/
+/* ------------------------------------------------------- */
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+  transform: scale(1.15);
+}
+
+.meal-photo img:hover {
+  transform: scale(1.03);
+  transition: transform 0.5s opacity 0.5s;
+  opacity: 1;
+}
+
+.section-meals {
+  padding: 0;
 }
