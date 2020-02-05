@@ -1,199 +1,183 @@
-
 /* ------------------------------------------------------- */
-    /*BASIC SETUP*/
+/*BASIC SETUP*/
 /* ------------------------------------------------------- */
-
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html { 
-    background-color: white;
-    color: black;
-    font-family: 'Lato', sans-serif;
-    font-size: 20px;
-    text-rendering: optimizeLegibility;
+html {
+  background-color: white;
+  color: black;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
 }
 /* ------------------------------------------------------- */
-    /*REUSABLE COMPONENTS*/
+/*REUSABLE COMPONENTS*/
 /* ------------------------------------------------------- */
 
-.row { 
-    max-width: 1140px;
-    margin: 0 auto 0 auto;
+.row {
+  max-width: 90%;
+  margin: 0 auto 0 auto;
 }
 
-section{ 
-    padding: 80px;
+section {
+  padding: 80px;
 }
 
 .box {
-    padding: 1%;
+  padding: 1%;
 }
 
 /* ------------------------------------------------------- */
-    /*HEADINGS*/
+/*HEADINGS*/
 /* ------------------------------------------------------- */
 
 h1,
 h2,
-h3 { 
-    text-transform: uppercase;
-    font-weight: 300;
+h3 {
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
-h1{
-    margin-top: 0;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 240%;
-    word-spacing: 2px;
-    letter-spacing: 1px;
-
+h1 {
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 240%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
 }
 
-h2{ 
- font-size: 180%;
- word-spacing: 1px;
- text-align: center;
- margin-bottom: 30px;
- letter-spacing: 1px;
-
+h2 {
+  font-size: 180%;
+  word-spacing: 1px;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: 1px;
 }
 
-h2:after { 
-    display: block;
-    height: 2px;
-    width: 100px;
-    margin-top: 30px;
-    margin: 20px auto;
-    content: " ";
-    background-color: rgb(89, 205, 255);
+h2:after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  margin-top: 30px;
+  margin: 20px auto;
+  content: " ";
+  background-color: rgb(89, 205, 255);
 }
 
-h3{
-    font-size:110%;
-    margin-bottom:10%;
+h3 {
+  font-size: 110%;
+  margin-bottom: 10%;
 }
 
 /*---------PARAGRAPH ----*/
 
 .long-copy {
-    width: 70%;
-    line-height: 145%;
-    margin-left: 15%;
+  width: 70%;
+  line-height: 145%;
+  margin-left: 15%;
 }
 
 .box p {
-    font-size: 90%;
-    line-height: 145%;
+  font-size: 90%;
+  line-height: 145%;
 }
 
 /*---------ICONS ----*/
 
 .icon-big {
-    font-size: 300%;
-    display: block;
-    color:rgb(89, 205, 255);
-    margin-bottom: 10px;
-    margin-left: 25%;
-
+  font-size: 300%;
+  display: block;
+  color: rgb(89, 205, 255);
+  margin-bottom: 10px;
+  margin-left: 25%;
 }
-
-
-
-
-
 
 /*---------BUTTONS ----*/
 
 .btn:link,
-.btn:visited { 
-    display: inline-block;
-    padding: 10px 30px;
-    font-weight: 300;
-    text-decoration: none;
-    border-radius: 100px;
-    transition: all 0.2s;
+.btn:visited {
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 300;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 0.3s;
 }
 
-.btn-full:link, 
-.btn-full:visited { 
-    border: 1px solid;
-    color:white;
-    border-color:rgb(89, 205, 255);
-    background-color:rgb(89, 205, 255);
-    margin-right: 15px;
+.btn-full:link,
+.btn-full:visited {
+  border: 1px solid;
+  color: white;
+  border-color: rgb(89, 205, 255);
+  background-color: rgb(89, 205, 255);
+  margin-right: 15px;
 }
 
 .btn-ghost:link,
-.btn-ghost:visited { 
-    border: 1px solid;
-    border-color:rgb(89, 205, 255);
-    color: white;
+.btn-ghost:visited {
+  border: 1px solid;
+  border-color: rgb(89, 205, 255);
+  color: white;
 }
 
-.btn.hover,
-.btn:active { 
-    background-color:rgb(89, 205, 255);
+.btn:hover,
+.btn:active {
+  background-color: rgb(89, 205, 255);
 }
 
-
 /* ------------------------------------------------------- */
-    /*HEADER*/
+/*HEADER*/
 /* ------------------------------------------------------- */
 
-    
-    header {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(img/hero.jpg);
-        height: 100vh;
-        background-size: cover;
-        background-position: center;
-    }
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(img/hero.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
 
-    .logo { 
-        height: 100px; 
-        width: auto; 
-        float: left;
-        margin-top: 20px;
-    }
+.logo {
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
+}
 
-    .main-nav {
-        float: right;
-        list-style: none;
-        margin-top: 55px;
-    }
+.main-nav {
+  float: right;
+  list-style: none;
+  margin-top: 55px;
+}
 
-    .main-nav li {
-        display: inline-block;
-        margin-left: 35px;
-    }
+.main-nav li {
+  display: inline-block;
+  margin-left: 35px;
+}
 
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        padding: 6px 0;
-        color:white;
-        text-decoration: none; 
-        text-transform: uppercase;
-        font-size: 90%;
-    }
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 6px 0;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+}
 
-    .main-nav li a:hover,
-    .main-nav li a:active { 
-        border-bottom: 2px solid rgb(89, 205, 255);
-    }
-
-
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid rgb(89, 205, 255);
+}
 
 .hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%, -50%) ;
+  position: absolute;
+  width: 1140px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-
-
