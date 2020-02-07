@@ -130,7 +130,6 @@ a:visited {
   color: rgb(89, 205, 255);
   text-decoration: none;
   padding-bottom: 1px;
-  border-bottom: 1px solid rgb(89, 205, 255);
   transition: border-bottom 0.2s, color 0.2s;
 }
 
@@ -171,6 +170,7 @@ a:active {
 .btn:hover,
 .btn:active {
   background-color: rgb(89, 205, 255);
+  color: white;
 }
 
 /* ------------------------------------------------------- */
@@ -338,6 +338,21 @@ header {
 
 .city-feature {
   margin-bottom: 5px;
+  font-size: 90%;
+}
+
+.city-feature a:link,
+.city-feature a:visited {
+  border-bottom: 1px solid rgb(89, 205, 255);
+  text-decoration: none;
+  padding-bottom: 1px;
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+.city-feature a:hover,
+.city-feature a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
 }
 
 /*-------------------------------------------------- */
@@ -412,6 +427,7 @@ cite img {
 .plan-box div {
   padding: 15px;
   border-bottom: 1px solid #e8e8e8;
+  font-size: 80%;
 }
 
 .plan-price {
@@ -433,5 +449,6 @@ cite img {
 }
 
 .plan-box ul li {
-  padding: 5px 0;
+  padding: 5px 0px;
+  font-size: 85%;
 }
