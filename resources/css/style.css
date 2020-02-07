@@ -165,7 +165,7 @@ a:active {
 .btn-ghost:visited {
   border: 1px solid;
   border-color: rgb(89, 205, 255);
-  color: white;
+  color: rgb(89, 205, 255);
 }
 
 .btn:hover,
