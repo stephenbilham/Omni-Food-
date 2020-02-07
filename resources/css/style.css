@@ -109,6 +109,37 @@ h3 {
   margin-left: 25%;
 }
 
+.icon-small {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  color: rgb(89, 205, 255);
+  font-size: 120%;
+  margin-right: 10px;
+
+  /* secrets to align txt and icons*/
+  line-height: 120%;
+  vertical-align: middle;
+  margin-top: -6px;
+}
+
+/*---------LINKS ----*/
+
+a:link,
+a:visited {
+  color: rgb(89, 205, 255);
+  text-decoration: none;
+  padding-bottom: 1px;
+  border-bottom: 1px solid rgb(89, 205, 255);
+  transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+}
+
 /*---------BUTTONS ----*/
 
 .btn:link,
@@ -152,6 +183,7 @@ header {
   height: 100vh;
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 .logo {
@@ -247,9 +279,6 @@ header {
   background-color: #f4f4f4;
 }
 
-.steps-box {
-}
-
 .steps-box:first-child {
   text-align: right;
   padding-right: 3%;
@@ -268,6 +297,10 @@ header {
 
 .works-step {
   margin-bottom: 50px;
+}
+.btn-app:link,
+.btn-app:visited {
+  border: 0;
 }
 
 .works-step:last-of-type {
@@ -292,4 +325,30 @@ header {
   height: 50px;
   width: auto;
   margin-right: 10px;
+}
+
+/* ------------------------------------------------------- */
+/*CITY SECTION*/
+/* ------------------------------------------------------- */
+
+.box img {
+  width: 100%;
+  height: auto;
+}
+
+.city-feature {
+  margin-bottom: 5px;
+}
+
+/*-------------------------------------------------- */
+/*TESTIMONIALS*/
+/* ------------------------------------------------------- */
+
+.section-testimonials {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.85)),
+    url(img/back-customers.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  background-attachment: fixed;
 }
