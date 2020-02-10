@@ -10,18 +10,6 @@
   }
 }
 
-header {
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-.section-testimonials {
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-}
-
 /* small phones to larger tablets 481-767px */
 
 @media only screen and (max-width: 767px) {
