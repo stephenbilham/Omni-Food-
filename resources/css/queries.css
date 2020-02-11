@@ -117,6 +117,11 @@
     margin-right: 15px;
     font-size: 120%;
   }
+
+  header,
+  .section-testimonials {
+    background-attachment: scroll;
+  }
 }
 /* small tablet to big tablet 768-1023 */
 
@@ -132,7 +137,11 @@
 
 .long-copy {
   width: 85%;
-  margin-left: 12.5%;
+  margin-left: 7.5%;
+}
+
+.hero-text-box {
+  margin-left: 20px;
 }
 
 .steps-box {
