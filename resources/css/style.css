@@ -194,9 +194,9 @@ header {
       from(rgba(0, 0, 0, 0.7)),
       to(rgba(0, 0, 0, 0.7))
     ),
-    url(img/hero.jpg);
+    url(img/hero-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(img/hero.jpg);
+    url(img/hero-min.jpg);
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -209,6 +209,16 @@ header {
   float: left;
   margin-top: 20px;
 }
+
+.logo-black {
+  display: none;
+  height: 50px;
+  width: auto;
+  float: left;
+  margin-top: 5px 0;
+}
+
+/* MAIN NAVI */
 
 .main-nav {
   float: right;
@@ -228,11 +238,14 @@ header {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 90%;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
 }
 
 .main-nav li a:hover,
 .main-nav li a:active {
-  border-bottom: 2px solid rgb(89, 205, 255);
+  border-bottom: 3px solid rgb(89, 205, 255);
 }
 
 .hero-text-box {
@@ -242,6 +255,49 @@ header {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+/* MOBILE NAVI */
+
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon i {
+  font-size: 200%;
+  color: white;
+}
+/* MAIN NAVI */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(225, 225, 225, 0.98);
+  color: black;
+  box-shadow: 0 2px 2px #efefef;
+  z-index: 9999;
+}
+
+.sticky .main-nav {
+  margin-top: 14.5px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 13px 0;
+  color: #555;
+}
+
+.sticky .logo {
+  display: none;
+}
+.sticky .logo-black {
+  display: block;
 }
 
 /* ------------------------------------------------------- */
@@ -391,9 +447,9 @@ header {
       from(rgba(0, 0, 0, 0.4)),
       to(rgba(0, 0, 0, 0.85))
     ),
-    url(img/back-customers.jpg);
+    url(img/back-customers-min.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.85)),
-    url(img/back-customers.jpg);
+    url(img/back-customers-min.jpg);
   background-size: cover;
   background-position: center;
   color: white;
@@ -602,4 +658,26 @@ footer p {
 .footer-nav li a:hover,
 .footer-nav li a:active {
   color: #dddd;
+}
+
+/* ------------------------------------------------------- */
+/*Animations*/
+/* ------------------------------------------------------- */
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+  opacity: 0;
+  animation-duration: 1-s;
+}
+
+.js-wp-4 {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.js-wp-1.animated,
+.js-wp-2.animated,
+.js-wp-3.animated {
+  opacity: 1;
 }
