@@ -32,8 +32,11 @@
   }
 
   .main-nav {
-    float: left;
     display: none;
+  }
+
+  .main-nav {
+    float: left;
     margin-top: 35px;
     margin-left: 25px;
   }
