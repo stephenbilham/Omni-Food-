@@ -109,7 +109,6 @@ h3 {
   display: block;
   color: rgb(89, 205, 255);
   margin-bottom: 10px;
-  margin-left: 25%;
 }
 
 .icon-small {
@@ -295,6 +294,10 @@ header {
 /* ------------------------------------------------------- */
 /*FEATURES*/
 /* ------------------------------------------------------- */
+.section-features {
+  text-align: center;
+}
+
 .section-features .long-copy {
   margin-bottom: 30px;
 }
@@ -409,7 +412,11 @@ header {
 
 .city-feature {
   margin-bottom: 5px;
-  font-size: 90%;
+  font-size: 100%;
+}
+
+.section-cities h3 {
+  text-align: center;
 }
 
 .city-feature a:link,
