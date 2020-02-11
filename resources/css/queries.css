@@ -8,6 +8,17 @@
   contact-form {
     width: 100%;
   }
+
+  .footer-nav li {
+    font-size: 60%;
+  }
+
+  .ion-logo-facebook,
+  .ion-logo-twitter,
+  .ion-logo-googleplus,
+  .ion-logo-instagram {
+    font-size: 60%;
+  }
 }
 
 /* small phones to larger tablets 481-767px */
