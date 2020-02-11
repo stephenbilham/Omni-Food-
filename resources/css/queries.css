@@ -11,6 +11,7 @@
 
   .footer-nav li {
     font-size: 60%;
+    text-align: center;
   }
 
   .ion-logo-facebook,
@@ -19,6 +20,11 @@
   .ion-logo-instagram {
     font-size: 60%;
   }
+}
+
+.social-links {
+  text-align: center;
+  width: 100%;
 }
 
 /* small phones to larger tablets 481-767px */
@@ -133,7 +139,12 @@
   .section-testimonials {
     background-attachment: scroll;
   }
+
+  .social-links {
+    justify-content: center;
+  }
 }
+
 /* small tablet to big tablet 768-1023 */
 
 @media only screen and (max-width: 1023px) {
@@ -189,7 +200,12 @@
 }
 
 .contact-form {
-  width: 80%;
+  width: 9;
+}
+
+.social-links {
+  width: 100%;
+  justify-content: flex-end;
 }
 
 /* tablet-smaller computers 1024-1200 */
